@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+  background-color: lightblue;
+}
+.container {
+  width: 80%;
+  font-size: 22px;
+  font-family: cursive;
+  background: lightcyan;
+  border: 1px solid lightblue;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin: 2% auto;
+}
+.tooltip {
+  position: relative;
+  z-index: 20;
+}
+.tooltip span {
+  display: none;
+}
+.tooltip:hover{
+  z-index: 21;
+
+}
+.tooltip:hover span {
+  display: block;
+  width: 100px;
+  padding: 5px;
+  color: #fff;
+  background: black;
+  font-size: 18px;
+  text-decoration: none;
+  position: absolute;
+  border-radius: 6px;
+  top: 35px;
+  left: -10px;
+transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+#sam a{
+  text-decoration: none;
+}
+#sam a:hover {
+  text-decoration: underline; 
+}
+#sam img {
+  margin: 0% auto;
+  height: 320px;
+}
